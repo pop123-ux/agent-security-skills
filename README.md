@@ -7,7 +7,7 @@
 Drop-in `SKILL.md` packs that teach your AI coding agent to design secure APIs, implement bulletproof authentication, and review code like a merciless senior engineer — before insecure code ever ships.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-3-blue)
+![Skills](https://img.shields.io/badge/skills-2-blue)
 ![Format](https://img.shields.io/badge/format-SKILL.md-purple)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
@@ -29,7 +29,6 @@ These skills work with **Claude Code**, **Claude agents (Agent SDK)**, **OpenCla
 |-------|--------------|-------------|
 | 🔐 [**api-security**](skills/api-security/) | OWASP API Top 10 patterns: JWT/OAuth2 auth, input validation (Zod), rate limiting, security headers, parameterized queries, and a full security checklist. | Designing or hardening REST/GraphQL/WebSocket APIs. |
 | 👤 [**secure-auth-patterns**](skills/secure-auth-patterns/) | Authentication & authorization done right: JWT + refresh tokens, sessions, OAuth2/social login, RBAC, permission systems, resource ownership, password security. | Building login, SSO, or access-control systems. |
-| 🛡️ [**git-sentinel**](skills/git-sentinel/) | Turns the agent into a "merciless senior engineer" that audits staged changes for security flaws, bugs, and tech debt — and gives a clear APPROVE / REJECT verdict. | Reviewing code before you commit. |
 
 Each skill is self-contained with copy-paste-ready code examples (Node/TypeScript) and clear *USE WHEN / DON'T USE WHEN* guidance.
 
@@ -73,12 +72,8 @@ agent-security-skills/
 └── skills/
     ├── api-security/          # OWASP API Top 10 patterns
     │   └── SKILL.md
-    ├── secure-auth-patterns/  # AuthN/AuthZ, JWT, OAuth2, RBAC
-    │   └── SKILL.md
-    └── git-sentinel/          # AI senior code reviewer
-        ├── SKILL.md
-        ├── sentinel.js
-        └── package.json
+    └── secure-auth-patterns/  # AuthN/AuthZ, JWT, OAuth2, RBAC
+        └── SKILL.md
 ```
 
 ## Contributing
