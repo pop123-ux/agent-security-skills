@@ -91,3 +91,8 @@ Found a better pattern? Spotted a flaw? PRs and issues are very welcome — see 
 Built by [**@pop123-ux**](https://github.com/pop123-ux) · If this helped, drop a ⭐ to help others find it.
 
 </div>
+
+## 🔗 More
+
+- Author: [@pop123-ux](https://github.com/pop123-ux)
+- Medium write-ups: [medium.com/@Pop123](https://medium.com/@Pop123)
