@@ -29,6 +29,7 @@ These skills work with **Claude Code**, **Claude agents (Agent SDK)**, **OpenCla
 |-------|--------------|-------------|
 | 🔐 [**api-security**](skills/api-security/) | OWASP API Top 10 patterns: JWT/OAuth2 auth, input validation (Zod), rate limiting, security headers, parameterized queries, and a full security checklist. | Designing or hardening REST/GraphQL/WebSocket APIs. |
 | 👤 [**secure-auth-patterns**](skills/secure-auth-patterns/) | Authentication & authorization done right: JWT + refresh tokens, sessions, OAuth2/social login, RBAC, permission systems, resource ownership, password security. | Building login, SSO, or access-control systems. |
+| 🔎 [**social-incident-source-review**](skills/social-incident-source-review/) | Source-grounded X evidence collection for impersonation, phishing, fraud, and account-abuse reviews. | Building a reproducible social incident evidence packet. |
 
 Each skill is self-contained with copy-paste-ready code examples (Node/TypeScript) and clear *USE WHEN / DON'T USE WHEN* guidance.
 
@@ -72,7 +73,9 @@ agent-security-skills/
 └── skills/
     ├── api-security/          # OWASP API Top 10 patterns
     │   └── SKILL.md
-    └── secure-auth-patterns/  # AuthN/AuthZ, JWT, OAuth2, RBAC
+    ├── secure-auth-patterns/  # AuthN/AuthZ, JWT, OAuth2, RBAC
+    │   └── SKILL.md
+    └── social-incident-source-review/  # X evidence collection for incidents
         └── SKILL.md
 ```
 
